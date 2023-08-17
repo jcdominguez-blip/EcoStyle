@@ -1,0 +1,144 @@
+*{
+  font-family: "roc-grotesk", sans-serif;
+
+font-family: "roc-grotesk", sans-serif;
+font-weight: 700;
+font-style: normal;
+font-family: "roc-grotesk", sans-serif;
+font-weight: 500;
+font-style: normal;
+font-weight: 400;
+font-style: normal;
+
+
+}
+
+/*estilos navbar
+.carousel-item {
+    height: 65vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }*/
+
+  /* Carousel base class */
+.carousel {
+  
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  
+  height: 32rem;
+}
+
+/*styles img*/
+.bd-placeholder-img {
+  background-image: url(https://i.ibb.co/dpTB2D7/img-Header.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  
+ 
+  
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+
+.bd-mode-toggle {
+  z-index: 1500;
+}
+/*bgStyle*/
+  .bg-mio{
+    color: aliceblue;
+    background-color: #206163;
+  }
+  .nav-mio {
+    
+    text-decoration: none;
+    display: block;    
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: #ffff;
+    text-decoration: none;
+    background: 0 0;
+    border: 0;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+button{
+  box-shadow: none;
+  color: #ffffff;
+  background-color: #ef7a3e;
+  }
+  .titulo{
+    font-family: "roc-grotesk", sans-serif;
+    font-weight: 700;
+  }
+  .subtitulos{
+    color: #ef7a3e;
+    font-weight: 500;
+    font-style: normal;
+  }
+  p{
+    font-weight: 400;
+  }
+  .lead{
+    font-weight: 400;
+    color: #206163;
+
+  }
+
+  react{
+    background-image: url(/img/imgA.png);
+  }
