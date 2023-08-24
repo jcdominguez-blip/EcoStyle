@@ -159,3 +159,10 @@ button{
   .cards-text{
     color:#206163 ;
   }
+  /*footerStyle*/
+  footer{
+    background-color:#206163;
+  }
+  .bajada {
+    color: #ffffff;
+  }
