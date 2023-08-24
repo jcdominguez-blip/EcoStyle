@@ -117,7 +117,7 @@ font-style: normal;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
 button{
-  box-shadow: none;
+  
   color: #ffffff;
   background-color: #ef7a3e;
   }
@@ -141,4 +141,21 @@ button{
 
   react{
     background-image: url(/img/imgA.png);
+  }
+  /*img 3 iconos*/
+  .bd-placeholder-img-a {
+    
+    background-image: url(/img/icon1.png);
+
+    }
+
+  .item{
+    color: #ef7a3e;
+  }
+  .button-box{
+    color: #206163;
+  }
+
+  .cards-text{
+    color:#206163 ;
   }
