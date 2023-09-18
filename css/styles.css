@@ -62,6 +62,13 @@ font-style: normal;
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
   }
+
+
+
+
+
+
+  
 }
 
 
@@ -102,7 +109,7 @@ font-style: normal;
 /*bgStyle*/
   .bg-mio{
     color: aliceblue;
-    background-color: #206163;
+    background-color: #fc883a;
   }
   .nav-mio {
     
@@ -116,17 +123,110 @@ font-style: normal;
     border: 0;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
-button{
+
+/*seccionExplicacion*/
+
+.cuerpoTitulo{
+  font-size: 120%;
+
+  font-weight: 400;
+  color: #fc883a;
   
-  color: #ffffff;
-  background-color: #ef7a3e;
+
+}
+.cuerpoTexto{
+
+  color: #008069;
+}
+
+/*comoFunciona*/
+.cf{
+
+
+    background-image: url('/img/BackCf.png'); /* Reemplaza 'tu-imagen-de-fondo.jpg' con la URL de tu imagen */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0 100px 0; /* Reducimos el espacio superior (50px) */
+    padding-top: 10%;
+    margin: 0%;
+
+}
+
+
+  .texto-cm {
+    margin-top: -100px; 
   }
+
+  .text-cf{
+    color: #ffe137;
+  }
+
+  .item-cf{
+    font-weight: bold;
+    font-size: 130%;
+    color: #ffe137;
+  }
+
+  .destacado{
+    font-weight: bolder;
+    color: #ffe137;
+  }
+
+  /*Kits*********************************************************************************************/
+
+  .kits {
+    background-image: url("/img/backgroundKit.svg"); /* Reemplaza 'tu-imagen-de-fondo.jpg' con la URL de tu imagen */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0 100px 0; /* Reducimos el espacio superior (50px) */
+    padding-top: 10%;
+    margin: 0%;
+  }
+ 
+  .custom-button-kit{
+    background-color: #fb873a; /* Personaliza el color de fondo */
+    border: none;
+    color: #fff; /* Personaliza el color del texto */
+    border-radius: 25px; /* Crea la forma de pastilla */
+    padding: 10px 20px; /* Ajusta el espacio dentro del botón */
+  }
+
+  .custom-button-kit:hover {
+    background-color: #ad341c; /* Cambia el color de fondo al pasar el ratón */
+  }
+
+  
+
+.custom-button-header{
+  
+  background-color: #056e5b; /* Personaliza el color de fondo */
+    border: none;
+    color: #fff; /* Personaliza el color del texto */
+    border-radius: 25px; /* Crea la forma de pastilla */
+    padding: 10px 20px; /* Ajusta el espacio dentro del botón */
+    
+  }
+
+  .custom-button-kit:hover {
+    background-color: #084c4e; /* Cambia el color de fondo al pasar el ratón */
+  }
+
   .titulo{
+    font-size: 400%;
     font-family: "roc-grotesk", sans-serif;
     font-weight: 700;
   }
+
+  .text-hero{
+    font-size: 150%;
+
+  }
   .subtitulos{
-    color: #ef7a3e;
+    color: #008069;
     font-weight: 500;
     font-style: normal;
   }
@@ -135,7 +235,7 @@ button{
   }
   .lead{
     font-weight: 400;
-    color: #206163;
+    color: #fb873a;
 
   }
 
@@ -159,9 +259,24 @@ button{
   .cards-text{
     color:#206163 ;
   }
+/*Galeria carrusell*********************/
+
+.items{
+  width:90%;
+  margin:0px auto;
+  margin-top: 100px;
+}
+.slick-slide{
+  margin:10px;
+}
+.slick-slide img{
+  width:100%;
+  border: 0px solid #fff;
+  }
+
   /*footerStyle*/
   footer{
-    background-color:#ffffff;
+    background-color:#008069
   }
   .bajada {
     color: #ffffff;
