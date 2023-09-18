@@ -240,12 +240,12 @@ font-style: normal;
   }
 
   react{
-    background-image: url(/img/imgA.png);
+    background-image: url(./img/imgA.png);
   }
   /*img 3 iconos*/
   .bd-placeholder-img-a {
     
-    background-image: url(/img/icon1.png);
+    background-image: url(./img/icon1.png);
 
     }
 
@@ -261,18 +261,7 @@ font-style: normal;
   }
 /*Galeria carrusell*********************/
 
-.items{
-  width:90%;
-  margin:0px auto;
-  margin-top: 100px;
-}
-.slick-slide{
-  margin:10px;
-}
-.slick-slide img{
-  width:100%;
-  border: 0px solid #fff;
-  }
+
 
   /*footerStyle*/
   footer{
