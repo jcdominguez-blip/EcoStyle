@@ -44,7 +44,7 @@ font-style: normal;
 
 /*styles img*/
 .bd-placeholder-img {
-  background-image: url(https://i.ibb.co/dpTB2D7/img-Header.png);
+  background-image: url();
   background-repeat: no-repeat;
   background-position: center;
   
@@ -57,7 +57,7 @@ font-style: normal;
   -moz-user-select: none;
   user-select: none;
 }
-
+/*
 @media (min-width: 768px) {
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
@@ -69,7 +69,7 @@ font-style: normal;
 
 
   
-}
+}*/
 
 
 
@@ -143,12 +143,12 @@ font-style: normal;
 .cf{
 
 
-    background-image: url('../img/BackCf.png'); /* Reemplaza 'tu-imagen-de-fondo.jpg' con la URL de tu imagen */
+    background-image: url('../img/BackCf.png'); 
     background-size: cover;
     background-position: center;
     color: #fff;
     text-align: center;
-    padding: 50px 0 100px 0; /* Reducimos el espacio superior (50px) */
+    padding: 50px 0 100px 0; 
     padding-top: 10%;
     margin: 0%;
 
@@ -164,20 +164,44 @@ font-style: normal;
   }
 
   .item-cf{
-    font-weight: bold;
-    font-size: 130%;
+    font-size: 120%;
+
+  font-weight: 400;
     color: #ffe137;
   }
 
   .destacado{
     font-weight: bolder;
-    color: #ffe137;
+    color: #fc883a;
   }
 
   /*Kits*********************************************************************************************/
+  .color{
+
+   color: #008069; 
+  
+
+  }
+
+  .kit-title{
+    color: #fc883a;
+    font-weight: bold;
+
+  }
+
+  .price-title{
+
+    color: #008069;
+  }
+
+  .detail-title{
+    font-size: 120%;
+    font-weight: 100;
+    color: #fc883a;
+  }
 
   .kits {
-    background-image: url("../img/backgroundKit.svg"); /* Reemplaza 'tu-imagen-de-fondo.jpg' con la URL de tu imagen */
+    background-image: url("../img/backgroundKit.png"); /* Reemplaza 'tu-imagen-de-fondo.jpg' con la URL de tu imagen */
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -199,7 +223,11 @@ font-style: normal;
     background-color: #ad341c; /* Cambia el color de fondo al pasar el ratón */
   }
 
-  
+  .mi-icono-personalizado {
+    
+  }
+
+
 
 .custom-button-header{
   
@@ -216,12 +244,14 @@ font-style: normal;
   }
 
   .titulo{
-    font-size: 400%;
+    font-size: 450%;
+    color:  #008069;
     font-family: "roc-grotesk", sans-serif;
     font-weight: 700;
   }
 
   .text-hero{
+    color:#fb873a ;
     font-size: 150%;
 
   }
@@ -253,20 +283,94 @@ font-style: normal;
     color: #ef7a3e;
   }
   .button-box{
-    color: #206163;
+    color: #008069;
   }
 
   .cards-text{
-    color:#206163 ;
+    color:#008069 ;
   }
 /*Galeria carrusell*********************/
 
+/*gift******************************************/
 
+.gift{
+  background-image: url("../img/gifbg.png"); /* Reemplaza 'tu-imagen-de-fondo.jpg' con la URL de tu imagen */
+    background-size: cover;
+    background-position: center;   
+    text-align: center;
+    padding: 50px 0 100px 0; /* Reducimos el espacio superior (50px) */
+    padding-top: 10%;
+    margin: 0%;
 
-  /*footerStyle*/
+}
+
+/*QuienesSomos******************************************/
+.bg-qs{
+
+  background-image: url("../img/qsbg.png"); /* Reemplaza 'tu-imagen-de-fondo.jpg' con la URL de tu imagen */
+  background-size: cover;
+  background-position: center;   
+  
+  padding: 0; /* Reducimos el espacio superior (50px) */
+  padding-top: 0%;
+  margin-top: 0%;
+
+}
+
+.bajada-qs{
+  font-weight: 400;
+  color: #008069;
+
+}
+
+.textbold-qs{
+  font-weight: bold;
+  
+  color: #008069;
+
+}
+ /*formulario*********************************************/
+
+.bg-custom-color{
+
+  background-color: #fb873a;
+}
+
+.formbg{
+
+  background-image: url("../img/formbg.png"); /* Reemplaza 'tu-imagen-de-fondo.jpg' con la URL de tu imagen */
+  background-size: cover;
+  background-position: center;   
+  
+  padding: 0; /* Reducimos el espacio superior (50px) */
+  padding-top: 0%;
+  margin-top: 0%;
+}
+
+/* Estilos personalizados */
+.bg-custom-color {
+  background-color:#008069; /* Cambia "#tu-color-aqui" por el color deseado */
+  /* Otros estilos personalizados si es necesario */
+}
+
+.btn-custom-color {
+  background-color: #ef7a3e; /* Cambia "#tu-color-aqui" por el color deseado */
+  /* Otros estilos personalizados para el botón si es necesario */
+}
+  /*footerStyle*********************************************/
   footer{
-    background-color:#008069
+    background-color:#008069;
   }
   .bajada {
     color: #ffffff;
   }
+
+  ul.list-unstyled.text-muted li a {
+    text-decoration: none;
+    color: white;
+}
+
+.none{
+  text-decoration: none;
+  color: #fff;
+}

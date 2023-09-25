@@ -1,17 +1,15 @@
-$(document).ready(function(){
-            
-
-          
-  $('.items').slick({
-infinite: true,
-lazyLoad: 'ondemand',
-slidesToShow: 3,
-slidesToScroll: 3
-});
-
-
-
-
-
-
- });
+function mostrarAlert() {
+  // Crea un elemento de alerta
+  var alertElement = document.createElement("div");
+  alertElement.classList.add("alert", "alert-success", "mt-3");
+  alertElement.innerHTML = "<strong>¡Kit agregado!</strong>¡Gracias por tu compra y por cuidar el planeta!";
+ 
+  // Agrega el elemento de alerta al contenedor
+  var alertContainer = document.getElementById("alertContainer");
+  alertContainer.appendChild(alertElement);
+ 
+  // Después de un tiempo, elimina el elemento de alerta
+  setTimeout(function() {
+      alertContainer.removeChild(alertElement);
+  }, 1500); // El alert se ocultará después de 5 segundos (5000 milisegundos)
+}
