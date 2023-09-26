@@ -13,6 +13,18 @@ font-style: normal;
 
 }
 
+
+
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh; /* 100% del alto de la ventana del navegador */
+    
+  }
+  
+  
+
 /*estilos navbar
 .carousel-item {
     height: 65vh;
@@ -77,7 +89,7 @@ font-style: normal;
   background-size: cover;
   background-position: center;
   color: #fff; /* Color del texto */
-  padding: 250px 0; /* Espaciado interior del hero */
+  padding: 300px 0; /* Espaciado interior del hero */
   text-align: left; /* Texto justificado de izquierda a derecha */
 }
 
@@ -93,7 +105,7 @@ font-style: normal;
   font-size: 2.5rem; /* Tamaño del título */
   margin-bottom: 20px;
   font-size: 430%;
-    color:  #008069;
+    color:  #07846C;
     font-family: "roc-grotesk", sans-serif;
     font-weight: 700;
 }
@@ -106,13 +118,14 @@ font-style: normal;
 
 
 .custom-button-header {
-  background-color: #007BFF; /* Color de fondo del botón */
-  color: #fff; /* Color del texto del botón */
+  background-color: #F2C50C; /* Color de fondo del botón */
+  color: #07846C; /* Color del texto del botón */
   border: none;
   padding: 10px 20px;
   border-radius: 30px; /* Borde redondeado del botón */
   cursor: pointer;
-  font-size: 1.2rem;
+  font-weight: bold;
+  font-size: 1.1rem;
 }
 /*-----------------------------*/
 
@@ -152,7 +165,7 @@ font-style: normal;
 /*bgStyle*/
   .bg-mio{
     color: aliceblue;
-    background-color: #fc883a;
+    background-color: #F2C50C;
   }
   .nav-mio {
     
@@ -172,14 +185,14 @@ font-style: normal;
 .cuerpoTitulo{
   font-size: 120%;
 
-  font-weight: 400;
-  color: #fc883a;
+  font-weight: bold;
+  color: #07846C;
   
 
 }
 .cuerpoTexto{
 
-  color: #008069;
+  color: #07846C;
 }
 
 /*comoFunciona*/
@@ -199,7 +212,8 @@ font-style: normal;
 
 
   .texto-cm {
-    margin-top: -100px; 
+    color:#ffffff;
+     
   }
 
   .text-cf{
@@ -215,19 +229,19 @@ font-style: normal;
 
   .destacado{
     font-weight: bolder;
-    color: #fc883a;
+    color: #F2C50C;
   }
 
   /*Kits*********************************************************************************************/
   .color{
 
-   color: #008069; 
+   color: #07846C; 
   
 
   }
 
   .kit-title{
-    color: #fc883a;
+    color: #F2C50C;
     font-weight: bold;
 
   }
@@ -240,7 +254,7 @@ font-style: normal;
   .detail-title{
     font-size: 120%;
     font-weight: 100;
-    color: #fc883a;
+    color: #008069;
   }
 
   .kits {
@@ -250,12 +264,12 @@ font-style: normal;
     color: #fff;
     text-align: center;
     padding: 50px 0 100px 0; /* Reducimos el espacio superior (50px) */
-    padding-top: 10%;
+    padding-top: 0%;
     margin: 0%;
   }
  
   .custom-button-kit{
-    background-color: #fb873a; /* Personaliza el color de fondo */
+    background-color: #008069; /* Personaliza el color de fondo */
     border: none;
     color: #fff; /* Personaliza el color del texto */
     border-radius: 25px; /* Crea la forma de pastilla */
@@ -266,21 +280,13 @@ font-style: normal;
     background-color: #ad341c; /* Cambia el color de fondo al pasar el ratón */
   }
 
-  .mi-icono-personalizado {
+  /*.mi-icono-personalizado {
     
-  }
+  }*/
 
 
 
-.custom-button-header{
-  
-  background-color: #056e5b; /* Personaliza el color de fondo */
-    border: none;
-    color: #fff; /* Personaliza el color del texto */
-    border-radius: 25px; /* Crea la forma de pastilla */
-    padding: 10px 20px; /* Ajusta el espacio dentro del botón */
-    
-  }
+
 
   .custom-button-kit:hover {
     background-color: #084c4e; /* Cambia el color de fondo al pasar el ratón */
@@ -289,21 +295,40 @@ font-style: normal;
  
 
   .text-hero{
-    color:#fb873a ;
-    font-size: 150%;
+    font-weight:500;
+    color:#07846C ;
+    font-size: 200%;
 
   }
   .subtitulos{
-    color: #008069;
-    font-weight: 500;
-    font-style: normal;
+    color: #07846C;
+    font-weight: bold;
+    font-style: bold;
   }
+
+.bg-color-text{
+  color: #F2C50C;
+    font-weight: bold;
+    font-style: bold;
+}
+
+.bg-subtitulo-text{
+  color: #F2C50C;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.bg-Texto{
+  color: #e0e0e0;
+}
+
   p{
     font-weight: 400;
   }
   .lead{
     font-weight: 400;
-    color: #fb873a;
+    
+    color:#07846C;
 
   }
 
