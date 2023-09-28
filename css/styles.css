@@ -531,6 +531,22 @@ text-align: center;
   color:#07846C ;
 }
 
+
+
+/*--------------------------productoCard--------------------*/
+
+.product-card-2{
+  border: 1px solid #ffffff; /* Borde para las cards */
+    margin-bottom: 20px; /* Espaciado entre las cards */
+    background-color: #ffffff; /* Color de fondo de las cards */
+    padding: 10px; /* Espaciado interior de las cards */
+}
+
+.product-card-2 .card-img-top-2 {
+  max-width: 100%; /* Ancho máximo de las imágenes */
+  height: auto; /* Altura automática para mantener la proporción */
+}
+
 /*-----------------------------Media@----------------------------------------*/
 /* Estilos específicos para pantallas más pequeñas, donde el texto debe ajustarse en dos líneas */
 @media (max-width: 576px) {
@@ -545,11 +561,31 @@ text-align: center;
     height: 100vh;
 }
 
+
   .hero-text h1 {
-    font-size: 350%; /* Disminuye el tamaño de fuente para adaptarse a pantallas más pequeñas */
+    
+    
+    font-size: 200%; /* Disminuye el tamaño de fuente para adaptarse a pantallas más pequeñas */
     white-space: normal; /* Permitir el salto de línea automático */
     word-spacing: 0x; /* Reducir el espaciado entre las palabras */
+    color: #F2C50C;
     }
+
+
+    .text-hero{
+
+      font-size: 100%; /* Disminuye el tamaño de fuente para adaptarse a pantallas más pequeñas */
+    white-space: normal; /* Permitir el salto de línea automático */
+    word-spacing: 0x;
+   color: #F2C50C;
+    }
+
+    .hero-container {
+      background-image: url('../img/gb_mobile.png');
+
+      }
+
+
 
     .first-line {
 
