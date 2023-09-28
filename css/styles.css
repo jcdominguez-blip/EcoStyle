@@ -95,19 +95,39 @@ font-style: normal;
 
 
 .hero-text {
-  max-width: 600px; /* Ancho máximo del contenedor de texto */
-  margin-left: auto;
-  margin-right: auto;
+   
+  max-width: 900px; /* Ancho máximo del contenedor de texto */
+  margin-left: 10px; /* Espacio entre el texto y el logo */
 }
 
 
+
+
 .hero-text h1 {
-  font-size: 2.5rem; /* Tamaño del título */
-  margin-bottom: 20px;
-  font-size: 430%;
+ /* font-size: 3.6rem;  Tamaño del título */
+  margin-bottom: 10px;
+  font-size: 5.0rem;
     color:  #07846C;
     font-family: "roc-grotesk", sans-serif;
-    font-weight: 700;
+    font-weight: 600;
+   
+    
+}
+.first-line {
+
+  font-size: 4.9rem;
+    color:  #07846C;
+    font-family: "roc-grotesk", sans-serif;
+    font-weight: 550;
+
+}
+.second-line{
+
+  font-size: 4.9rem;
+    color:  #07846C;
+    font-family: "roc-grotesk", sans-serif;
+    font-weight: 550;
+
 }
 
 
@@ -165,7 +185,7 @@ font-style: normal;
 /*bgStyle*/
   .bg-mio{
     color: aliceblue;
-    background-color: #F2C50C;
+    background-color: #07846C;
   }
   .nav-mio {
     
@@ -217,21 +237,24 @@ font-style: normal;
   }
 
   .text-cf{
-    color: #ffe137;
+    color: #F2C50C;
   }
 
   .item-cf{
     font-size: 120%;
 
   font-weight: 400;
-    color: #ffe137;
+    color: #F2C50C;
   }
 
   .destacado{
     font-weight: bolder;
     color: #F2C50C;
   }
-
+.destacado-2{
+  font-weight: bolder;
+    color: #07846C;
+}
   /*Kits*********************************************************************************************/
   .color{
 
@@ -248,13 +271,13 @@ font-style: normal;
 
   .price-title{
 
-    color: #008069;
+    color: #07846C;
   }
 
   .detail-title{
     font-size: 120%;
     font-weight: 100;
-    color: #008069;
+    color: #07846C;
   }
 
   .kits {
@@ -269,7 +292,7 @@ font-style: normal;
   }
  
   .custom-button-kit{
-    background-color: #008069; /* Personaliza el color de fondo */
+    background-color: #07846C; /* Personaliza el color de fondo */
     border: none;
     color: #fff; /* Personaliza el color del texto */
     border-radius: 25px; /* Crea la forma de pastilla */
@@ -314,7 +337,7 @@ font-style: normal;
 
 .bg-subtitulo-text{
   color: #F2C50C;
-  font-weight: 500;
+  font-weight: bold;
   font-size: 1.2rem;
 }
 
@@ -332,6 +355,14 @@ font-style: normal;
 
   }
 
+
+  .lead-sorp{
+    font-size: 1.25rem;
+    font-weight: 300;    
+    color:#F2C50C;
+
+  }
+
   react{
     background-image: url(./img/imgA.png);
   }
@@ -342,15 +373,13 @@ font-style: normal;
 
     }
 
-  .item{
-    color: #ef7a3e;
-  }
+ 
   .button-box{
-    color: #008069;
+    color: #07846C;
   }
 
   .cards-text{
-    color:#008069 ;
+    color:#07846C ;
   }
 /*Galeria carrusell*********************/
 
@@ -380,26 +409,23 @@ font-style: normal;
 
 }
 
+
+
+
 .bajada-qs{
   font-weight: 400;
-  color: #008069;
+  color: #07846C;
 
 }
 
 .textbold-qs{
   font-weight: bold;
   
-  color: #008069;
+  color: #07846C;
 
 }
  /*formulario*********************************************/
-
-.bg-custom-color{
-
-  background-color: #fb873a;
-}
-
-.formbg{
+ .formbg{
 
   background-image: url("../img/formbg.png"); /* Reemplaza 'tu-imagen-de-fondo.jpg' con la URL de tu imagen */
   background-size: cover;
@@ -412,17 +438,16 @@ font-style: normal;
 
 /* Estilos personalizados */
 .bg-custom-color {
-  background-color:#008069; /* Cambia "#tu-color-aqui" por el color deseado */
+  background-color:#07846C; /* Cambia "#tu-color-aqui" por el color deseado */
   /* Otros estilos personalizados si es necesario */
 }
 
-.btn-custom-color {
-  background-color: #ef7a3e; /* Cambia "#tu-color-aqui" por el color deseado */
-  /* Otros estilos personalizados para el botón si es necesario */
-}
+
   /*footerStyle*********************************************/
+
+ 
   footer{
-    background-color:#008069;
+    background-color:#07846C;
   }
   .bajada {
     color: #ffffff;
@@ -436,6 +461,15 @@ font-style: normal;
 .none{
   text-decoration: none;
   color: #fff;
+}
+
+.bg-custom-color {
+  background-color: #F2C50C;
+}
+.btn-mio{
+
+ color: #F2C50C,
+
 }
 
  /*Kits design*********************************************************************************************/
@@ -462,3 +496,72 @@ max-width: 100%;
 .product-card .card-body {
 text-align: center;
 }
+
+
+/*---------------------------breadcrumbKit-----------------
+
+/* Quitar el fondo de color del breadcrumb */
+.breadcrumb {
+  background-color: #F2C50C;
+  padding: 0;
+  margin: 0;
+}
+
+/* Estilos para los elementos del breadcrumb */
+.breadcrumb-item {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo para el enlace dentro de los elementos del breadcrumb */
+.breadcrumb-item a {
+  color: #6c757d; /* Color del enlace */
+  text-decoration: none; /* Eliminar subrayado */
+}
+
+/* Estilo para el enlace activo dentro del breadcrumb */
+.breadcrumb-item.active {
+  color: #000; /* Cambiar color del enlace activo */
+  font-weight: bold; /* Hacer el enlace activo más audaz si lo deseas */
+}
+
+/*------------------------------------------productPage-----------*/
+
+.titulo-kit-sub{
+  color:#07846C ;
+}
+
+/*-----------------------------Media@----------------------------------------*/
+/* Estilos específicos para pantallas más pequeñas, donde el texto debe ajustarse en dos líneas */
+@media (max-width: 576px) {
+
+
+  
+
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+  .hero-text h1 {
+    font-size: 350%; /* Disminuye el tamaño de fuente para adaptarse a pantallas más pequeñas */
+    white-space: normal; /* Permitir el salto de línea automático */
+    word-spacing: 0x; /* Reducir el espaciado entre las palabras */
+    }
+
+    .first-line {
+
+      font-size: 70%; /* Disminuye el tamaño de fuente para adaptarse a pantallas más pequeñas */
+    white-space: normal; /* Permitir el salto de línea automático */
+    word-spacing: 0px; /* Reducir el espaciado entre las palabras */
+    
+    }
+    .second-line{
+    
+      font-size: 70%; /* Disminuye el tamaño de fuente para adaptarse a pantallas más pequeñas */
+    white-space: normal; /* Permitir el salto de línea automático */
+    word-spacing: 0px; /* Reducir el espaciado entre las palabras */
+    }
+  }

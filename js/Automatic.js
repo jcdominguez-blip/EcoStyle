@@ -2,7 +2,7 @@ function mostrarAlert() {
   // Crea un elemento de alerta
   var alertElement = document.createElement("div");
   alertElement.classList.add("alert", "alert-success", "mt-3");
-  alertElement.innerHTML = "<strong>¡Kit agregado!</strong>¡Gracias por tu compra y por cuidar el planeta!";
+  alertElement.innerHTML = "<strong>¡Kit agregado!</strong>¡Estás a un paso de  la suscripción!";
  
   // Agrega el elemento de alerta al contenedor
   var alertContainer = document.getElementById("alertContainer");
